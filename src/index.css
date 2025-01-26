@@ -1,1 +1,14 @@
 @import "tailwindcss";
+@layer utilities {
+    .container {
+      @apply mx-auto;
+    }
+  }
+@theme {
+    --font-open: "Open Sans", "sans-serif"; 
+    --font-gemunu: "Gemunu Libre", "sans-serif"; 
+    --color-gega-red: oklch(51.59% 0.1924 13.93);
+    --color-gega-melon: oklch(88.45% 0.1333 86.89); 
+    --color-gega-grey: oklch(89.75% 0 0);
+    --color-gega-white: oklch(97.61% 0 0);
+  }
